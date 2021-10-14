@@ -1,26 +1,23 @@
-# Prerequisites
-*.d
+# Configured outputs
+Makefile
+src/defs.hpp
 
-# Compiled Object files
+# Object and binary directories
+obj/
+bin/
+
+# Compiled object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Compiled dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# Compiled static libraries
 *.lai
 *.la
 *.a
@@ -30,3 +27,38 @@
 *.exe
 *.out
 *.app
+athena
+
+# Athena output files
+*.tab
+*.vtk
+*.athdf*
+*.hst
+*.rst
+meshtest.dat
+
+# Visualization package files
+.smhist
+
+# Mac OS metadata
+.DS_Store
+
+# editor temp files
+*~
+*.swp
+
+# Gcov: GCC coverage testing tool- data files
+*.gcno
+*.gcda
+
+# Gcov log files
+*.gcov
+
+# Lcov: graphical frontend for Gcov- tracefiles
+*.info
+
+# genhtml test case description format produced by gendesc
+*.desc
+
+# compiled doxygen file
+doc/doxy*
